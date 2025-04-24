@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PW</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -24,9 +24,17 @@
             <a href="#" class="mx-[20px] cursor-pointer font-bold hover:-translate-y-1 transition delay-100 duration-300 ease hover:drop-shadow-indigo-700 hover:drop-shadow-lg hover:unde hover:underline decoration-indigo-900 decoration-2">Contact us</a>
         </div>
         <button
-            class="hidden md:block px-4 py-2 bg-sky-500 text-white rounded font-bold cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:initial-scale-110 hover:bg-indigo-700 hover:outline hover:outline-[2.5px]   ">login</button>
-        <div class="md:hidden">
-            <a href="#" class="text-4xl">&#8801</a>
+            class="hidden md:block px-4 py-2 bg-blend-mode  text-indigo-900 rounded font-bold cursor-pointer transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:initial-scale-110 hover:outline hover:outline-[1px]  hover:bg-indigo-900 hover:border-2 hover:border-indigo-200 hover:rounded hover:text-indigo-200 border-2 border-indigo-900  ">login</button>
+        <!-- <div class="md:hidden">
+            <input type="checkbox" id="cheak" class="hidden "/>
+           <label for="cheak">
+            <i class="fa-solid fa-bars text-2xl cursor-pointer" ></i>
+           </label>
+        </div> -->
+        <div class="flex flex-col  font-bold text-indigo-900 gap-1 w-[45%] text-center absolute top-14 right-0 rounded-lg shadow-lg shadow-indigo-900 bg-blend-mode bg-opacity-50 p-4 md:hidden">
+            <li class="list-none"><a href="#">Home</a></li>
+            <li class="list-none"><a href="#">About</a></li>
+            <li class="list-none"><a href="#">Contact</a></li>
         </div>
     </nav>
     <!-- nav ends -->
@@ -36,7 +44,7 @@
                 class=" hidden md:block h-[100%] w-[100%] object-cover pt-1  drop-shadow-lg drop-shadow-indigo-100" />
         </div>
         <div
-            class="text-[1.5rem] md:text-6xl font-bold text-cyan-500 text-center pt-20 w-[50%] mx-auto drop-shadow-lg drop-shadow-indigo-900 animate-[bounce_5s_ease-linear_1]">
+            class="text-[2rem] md:text-6xl font-bold text-cyan-500 text-center pt-20 w-[50%] mx-auto drop-shadow-lg drop-shadow-indigo-900 animate-[bounce_5s_ease-linear_1]">
             THE INDUSTRY REQUIRES ADVANCED SKILLS .<br>
             <span class="text-indigo-700 drop-shadow-lg drop-shadow-indigo-300 ">GET IT THE SMART WAY ...</span>
         </div>
@@ -44,7 +52,7 @@
     <!-- outer student section -->
     <div class="flex flex-col flex-wrap h-auto w-[100%] p-6 items-center text-center">
         <div class="h-auto w-full flex flex-wrap flex-col items-center">
-            <p class="text-indigo-600 font-bold text-2xl md:text-3xl text-center">"Pure Hardeorks , No Shortcuts !"</p>
+            <p class="text-indigo-600 font-bold text-2xl md:text-3xl text-center">"Pure Hardworks , No Shortcuts !"</p>
             <div class="w-36 h-1 border-b-4 mt-2 border-b-yellow-600 rounded-2xl md:mt-4 mb-12"></div>
         </div>
         <div class="flex w-full flex-wrap justify-evenly">
@@ -80,7 +88,7 @@
         </div>
         <div class="flex flex-wrap justify-evenly w-full h-auto ">
             <div
-                class="w-54 text-white flex flex-col items-center justify-center p-5 hover:border-3 hover:border-white hover:rounded-2xl hover:shadow-lg hover:shadow-indigo-500  transition delay-100 ease duration-300 hover:-translate-y-1 ">
+                class="w-54  flex flex-col items-center justify-center p-5 hover:border-3 hover:border-white hover:rounded-2xl hover:shadow-lg hover:shadow-indigo-500  transition delay-100 ease duration-300 hover:-translate-y-1 ">
                 <div class="flex items-center rounded-[50%] bg-white p-5 "><img src="./imgs/writing.png" alt=""
                         class="h-15"></div>
                 <p class="text-1xl font-bold pt-2">PW Skills Lab</p>
@@ -89,7 +97,7 @@
                 </p>
             </div>
             <div
-                class="w-54 text-white flex flex-col items-center justify-center p-5 hover:border-3 hover:border-white hover:rounded-2xl hover:shadow-lg hover:shadow-indigo-500 transition delay-100 ease duration-300 hover:-translate-y-1 ">
+                class="w-54  text-white flex flex-col items-center justify-center p-5 hover:border-3 hover:border-white hover:rounded-2xl hover:shadow-lg hover:shadow-indigo-500 transition delay-100 ease duration-300 hover:-translate-y-1 ">
                 <div class="flex items-center rounded-[50%] bg-white p-5 "><img src="./imgs/approved.png" alt=""
                         class="h-15"></div>
                 <p class="text-1xl font-bold pt-2">Job portal</p>
@@ -128,7 +136,7 @@
         <!--  Our  product section end -->
         <!-- Footer starts hear -->
         <footer
-            class="w-full bg-gray-900 px-4 pt-8 text-white flex flex-col md:flex-row justify-between flex-wrap md:px-12">
+            class="w-full bg-gray-900 px-4 pt-8 text-white flex flex-col md:flex-row justify-between flex-wrap md:px-12 mt-4">
             <div class="w-50  flex items-center flex-col  pt-8">
                 <img src="./imgs/pwlogo-removebg-preview.png" alt="logo" class="w-36 ">
                 <p class=" ">Email us: support@pwskills.com</p>
@@ -139,9 +147,9 @@
                 <div class="w-24 h-1 my-2 border-b-3 border-b-yellow-500 rounded-2xl md:w-28"></div>
                 <div class="mt-2 text-left">
                     <ul>
-                        <li>About us </li>
-                        <li>FAQs</li>
-                        <li>Privacy policy</li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">About us </li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">FAQs</li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">Privacy policy</li>
                     </ul>
                 </div>
             </div>
@@ -150,11 +158,11 @@
                 <div class="w-24 h-1 my-2 border-b-3 border-b-yellow-500 rounded-2xl md:w-28"></div>
                 <div class="mt-2 text-left">
                     <ul>
-                        <li>PW skills lab </li>
-                        <li>Job portal</li>
-                        <li>Experiance portal</li>
-                        <li>Become an affiliate</li>
-                        <li>Hall of fame</li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">PW skills lab </li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">Job portal</li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">Experiance portal</li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">Become an affiliate</li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">Hall of fame</li>
                     </ul>
                 </div>
             </div>
@@ -163,9 +171,9 @@
                 <div class="w-24 h-1 my-2 border-b-3 border-b-yellow-500 rounded-2xl md:w-28"></div>
                 <div class="mt-2 text-left">
                     <ul>
-                        <li>Discard channel </li>
-                        <li>PW Youtube</li>
-                        <li>Careers</li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">Discard channel </li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">PW Youtube</li>
+                        <li class="hover:underline decoration-2 decoration-yellow-500 hover:-translate-y-1 transition delay-100 duration-300 ease drop-shadow-yellow-500 hover:cursor-pointer">Careers</li>
                     </ul>
                 </div>
             </div>
